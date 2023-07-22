@@ -17,7 +17,7 @@
      </style>
 
 </head>
-<body>
+<body class="container">
     <header class="md:container md:mx-auto">
       <!--this is navbar-->
        <nav>
@@ -157,7 +157,7 @@
     </header>
     <main class="md:container md:mx-auto">
       <!--this is featured bikes-->
-      <section>
+      <section >
 
       </section>
       <!--this is latest News-->
@@ -208,25 +208,22 @@
         </div>
       </section>
       <!--this is client says-->
-      <section>
+      <section >
         <h2 class="font-semibold mb-12 text-5xl text-center">
           Happy <span class="text-orange-300">Clients says</span>
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <!--first review-->
           <div class="card bg-base-100 p-9 border border-gray-300">
-            <figure class="px-10 pt-1">
+            <figure class="px-10 pt-7">
               <img class="w-40" src="/images/others/user-1.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               
               <p>Slate helps you see how 
-
                 many more days you need 
-                
-                to work to reach your financial 
-                
-                goal for the month and year</p>
+                to work to reach your financial               
+                goal for the month and year
                 <div class="rating">
                   <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"  />
@@ -274,7 +271,7 @@
            <!--third review-->
            <div class="card bg-base-100 p-9 border border-gray-300">
             <figure class="px-10 pt-7">
-              <img class="w-40" src="/images/others/user-1.png" alt="Shoes" class="rounded-xl" />
+              <img class="w-40" src="/images/others/user-3.png" alt="Shoes" class="rounded-xl" />
             </figure>
             <div class="card-body items-center text-center">
               
@@ -302,9 +299,72 @@
           </div>
         </div>
       </section>
+      <!--this is FAQ-->
+      <section class="my-24">
+        <h2 class="font-semibold mb-12 text-5xl text-center">
+          Frequently Asked  <span class="text-orange-300">Questions</span>
+        </h2>
+        <div class="hero">
+          <div class="hero-content flex-col lg:flex-row px-24  gap-32">
+            <img src="/images/others/faq.png" class="lg:max-w-sm w-3/4 rounded-lg shadow-2xl" />
+            <div>
+              <div class="join join-vertical w-full">
+                <div class="collapse collapse-arrow join-item border border-base-300">
+                  <input type="radio" name="my-accordion-4" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    <Translate text="What are the most important things I should
+                    know about riding a bike?" />
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic 
+                      signals, signs, and laws. Get in the mindset of “driving” your 
+                      bike—not just “riding” your bike. This will help you be a more 
+                      focused and legally compliant bike rider.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border border-base-300">
+                  <input type="radio" name="my-accordion-4" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    <Translate text="How can I tell if my helmet is old and I need a 
+                    new one?" />
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic 
+                      signals, signs, and laws. Get in the mindset of “driving” your 
+                      bike—not just “riding” your bike. This will help you be a more 
+                      focused and legally compliant bike rider.</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border border-base-300">
+                  <input type="radio" name="my-accordion-4" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    <Translate text="What rules should I follow when riding my bike?" />
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic 
+                      signals, signs, and laws. Get in the mindset of “driving” your 
+                      bike—not just “riding” your bike. This will help you be a more 
+                      focused and legally compliant bike rider.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer>
-
+    <footer class=" footer p-10 bg-neutral text-neutral-content justify-center lg:justify-between">
+      <div class="pl-12">
+        <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+      </div> 
+      <div class="pr-20">
+        <span class="footer-title">Social</span> 
+        <div class="grid grid-cols-1 gap-4 ">
+          <a><img class="w-36" src="images/others/ios.png" alt="" srcset=""></a> 
+          <a><img class="w-36" src="images/others/android.png" alt="" srcset=""></a> 
+          
+        </div>
+      </div>
     </footer>
 </body>
 </html>
